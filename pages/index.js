@@ -37,7 +37,7 @@ let theme = createTheme({
 theme = responsiveFontSizes(theme)
 
 theme.typography.h2 = {
-  fontSize: '1.9rem',
+  fontSize: '2.0em',
   '@media (min-width:600px)': {
     fontSize: '2.5rem',
   },
@@ -47,7 +47,7 @@ theme.typography.h2 = {
 }
 
 theme.typography.h3 = {
-  fontSize: '1.2rem',
+  fontSize: '1.9rem',
   '@media (min-width:600px)': {
     fontSize: '1.8rem',
   },
@@ -57,12 +57,12 @@ theme.typography.h3 = {
 }
 
 theme.typography.h4 = {
-  fontSize: '0.9rem',
+  fontSize: '1.8rem',
   '@media (min-width:500px)': {
-    fontSize: '1.9rem',
+    fontSize: '2.5rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '2.6rem',
+    fontSize: '2.8rem',
   },
 };
  
@@ -93,7 +93,7 @@ theme.typography.h4 = {
                         position: 'absolute', 
                         color: '#001540', 
                         top: '12%', 
-                        left: '75%', 
+                        left: '73%', 
                         transform: 'translateX(-50%)'
                         }}>
                       <Typography
@@ -101,30 +101,32 @@ theme.typography.h4 = {
                           variant="h2">
                         Welcome!                  
                         </Typography>
+                        <br></br>
+                        <Typography
+                         style={{ fontFamily: 'Quicksand', margin: ".6rem"}}
+                         variant="h3">
+                        I'm Kara.         
+                        </Typography>
 
-                        <Typography
-                       style={{ fontFamily: 'Quicksand'}}
-                      variant="h3">
-                      I'm Kara.         
-                        </Typography>
-                          <br></br>
-                        <Typography
-                        style={{ fontFamily: 'Urbanist'}}
-                      variant="h4"> 
-                    I create applications that 
-                    inspire, inform and captivate 
-                        </Typography>
                       </div>
                       </div>
                </CardContent>
-                   
+      <Typography
+          color="secondary"
+          style={{ fontFamily: 'Urbanist', textAlign: "center"}}
+          variant="h4"> 
+        I create applications that inspire, inform and captivate 
+      </Typography>
+
       <CardActions style={{ display: "flex", justifyContent: "center", padding: "1.3rem", alignItems: "center"}}>
         <Button 
+               size="large"
                color="secondary"
                variant="outlined"
                href="https://www.canva.com/design/DAE3VE_Ff84/OJNxmXRlMbmPDgQoy7cdHQ/view?utm_content=DAE3VE_Ff84&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                  >resume</Button>
                  <Button 
+                 size="large"
                  color="secondary"
                  variant="outlined"
                 href="https://github.com/Wrangler416?tab=repositories"
@@ -172,11 +174,13 @@ theme.typography.h4 = {
                   </CardActionArea>
                   <CardActions style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
                    <Button 
+                    size="large"
                     color="secondary"
                     variant="outlined"
                     href="https://github.com/Wrangler416/e-shop"
                     >Site</Button>
                     <Button 
+                    size="large"
                     color="secondary"
                     variant="outlined"
                     href="https://github.com/Wrangler416/e-shop"
@@ -212,11 +216,13 @@ theme.typography.h4 = {
                   </CardActionArea>
                   <CardActions style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
                    <Button 
+                    size="large"
                     color="secondary"
                     variant="outlined"
                     href="https://disney-plus-eta.vercel.app/"
                     >Site</Button>
                     <Button 
+                     size="large"
                     color="secondary"
                     variant="outlined"
                     href=""
@@ -254,11 +260,13 @@ theme.typography.h4 = {
                   </CardActionArea>
                   <CardActions style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
                    <Button 
+                    size="large"
                     color="secondary"
                     variant="outlined"
                     href="https://space-x-dusky.vercel.app/"
                     >Site</Button>
                     <Button 
+                     size="large"
                     color="secondary"
                     variant="outlined"
                     href="https://github.com/Wrangler416/spaceX"
@@ -299,6 +307,7 @@ theme.typography.h4 = {
                   </CardActionArea>
                   <CardActions style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
                    <Button 
+                    size="large"
                     color="secondary"
                     variant="outlined"
                     href="http://www.kitesurfcat.com/"
@@ -325,13 +334,20 @@ theme.typography.h4 = {
 
                 <CardActions style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
                    <Button 
+                    size="large"
                     color="secondary"
                     variant="outlined"
-                    href=""
+                    href="mailto: karaanntemple@gmail.com"
                     >Contact Me</Button>
-                    <Typography>
-                    </Typography>
+                  
                   </CardActions>
+
+                  <Typography 
+                       color="secondary"
+                       style={{fontFamily: "Urbanist"}}
+                       >
+                      340 513 2289 
+                    </Typography>
                </CardContent>
             </Card>
         </Grid>

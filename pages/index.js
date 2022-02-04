@@ -57,7 +57,7 @@ theme.typography.h3 = {
 }
 
 theme.typography.h4 = {
-  fontSize: '0.7rem',
+  fontSize: '0.9rem',
   '@media (min-width:500px)': {
     fontSize: '1.9rem',
   },
@@ -123,7 +123,7 @@ theme.typography.h4 = {
         <Button 
                color="secondary"
                variant="outlined"
-               href=""
+               href="https://www.canva.com/design/DAE3VE_Ff84/OJNxmXRlMbmPDgQoy7cdHQ/view?utm_content=DAE3VE_Ff84&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                  >resume</Button>
                  <Button 
                  color="secondary"
@@ -328,8 +328,10 @@ theme.typography.h4 = {
                    <Button 
                     color="secondary"
                     variant="outlined"
-                    href="https://space-x-dusky.vercel.app/"
+                    href=""
                     >Contact Me</Button>
+                    <Typography>
+                    </Typography>
                   </CardActions>
                </CardContent>
             </Card>

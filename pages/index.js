@@ -112,7 +112,6 @@ theme.typography.h4 = {
                         style={{ fontFamily: 'Urbanist'}}
                       variant="h4"> 
                     I create applications that 
-                    <br></br>
                     inspire, inform and captivate 
                         </Typography>
                       </div>

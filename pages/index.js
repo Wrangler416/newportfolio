@@ -4,7 +4,8 @@ import race from '../public/images/race2.png'
 import ecom from "../public/images/ecom.png"
 import space from '../public/images/spacex.png'
 import kite from '../public/images/kite.png'
-import dis from '../public/images/disney.png'
+import moa from '../public/images/moa.png'
+
 import Link from 'next/link'
 import {
   Grid, 
@@ -206,7 +207,7 @@ theme.typography.h4 = {
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
                     <CardContent style={{textAlign: "center"}}>
-                      <Image src={dis} width={400} height={300}></Image>
+                      <Image src={moa} width={400} height={300}></Image>
                       <Typography 
                         margin="1rem"
                       color="secondary"

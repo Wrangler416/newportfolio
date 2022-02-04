@@ -16,9 +16,11 @@ import {
   Button,} 
   from '@mui/material'
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
+import animationData from "../public/images/tool.json"
 
 
 const Home = () => {
+
 
 let theme = createTheme({
   typography: {
@@ -66,6 +68,7 @@ theme.typography.h4 = {
   },
 };
  
+
   return (
       <>
         <Head>
@@ -79,6 +82,9 @@ theme.typography.h4 = {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Urbanist:wght@100&display=swap" rel="stylesheet"/> 
         </Head>
+
+
+
 
         <ThemeProvider theme={theme}>
         <Grid container columns={{ xs: 4, md: 12 }}>
@@ -102,13 +108,15 @@ theme.typography.h4 = {
                         Welcome!                  
                         </Typography>
                         <br></br>
+                
                         <Typography
                          style={{ fontFamily: 'Quicksand', margin: ".6rem"}}
                          variant="h3">
                         I'm Kara.         
                         </Typography>
-
-                      </div>
+                        </div>
+                      
+            
                       </div>
                </CardContent>
                <br></br>
@@ -154,7 +162,7 @@ theme.typography.h4 = {
             item xs={6} md={8} lg={8}
           >
             <Link href={"https://e-shop-rho.vercel.app/"}>
-              <Card style={{backgroundColor: '#001540', margin: "1rem"}}>
+              <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
                     <CardContent style={{textAlign: "center"}}>
                       <Image src={ecom} width={400} height={300}></Image>

@@ -39,20 +39,20 @@ theme = responsiveFontSizes(theme)
 theme.typography.h2 = {
   fontSize: '2.0em',
   '@media (min-width:600px)': {
-    fontSize: '2.5rem',
+    fontSize: '3.0rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '2.9rem',
+    fontSize: '4.5rem',
   },
 }
 
 theme.typography.h3 = {
   fontSize: '1.9rem',
   '@media (min-width:600px)': {
-    fontSize: '1.8rem',
+    fontSize: '2.8rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '2.4rem',
+    fontSize: '4.0rem',
   },
 }
 
@@ -111,13 +111,14 @@ theme.typography.h4 = {
                       </div>
                       </div>
                </CardContent>
+               <br></br>
       <Typography
           color="secondary"
-          style={{ fontFamily: 'Urbanist', textAlign: "center"}}
+          style={{ fontFamily: 'Urbanist', textAlign: "center", margin: ".5rem"}}
           variant="h4"> 
         I create applications that inspire, inform and captivate 
       </Typography>
-
+ <br></br>
       <CardActions style={{ display: "flex", justifyContent: "center", padding: "1.3rem", alignItems: "center"}}>
         <Button 
                size="large"
@@ -138,6 +139,7 @@ theme.typography.h4 = {
               style={{textAlign: "center", margin: "2rem", fontFamily: 'Quicksand'}}>
             Projects 
           </Typography>    
+          <br></br>
             </Card>        
           </Grid>
       </Grid>

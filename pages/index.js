@@ -57,12 +57,12 @@ theme.typography.h3 = {
 }
 
 theme.typography.h4 = {
-  fontSize: '0.9rem',
-  '@media (min-width:600px)': {
+  fontSize: '0.7rem',
+  '@media (min-width:500px)': {
     fontSize: '1.9rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '2.3rem',
+    fontSize: '2.6rem',
   },
 };
  
@@ -81,7 +81,8 @@ theme.typography.h4 = {
         </Head>
 
         <ThemeProvider theme={theme}>
-        <Grid >
+        <Grid container columns={{ xs: 4, md: 12 }}>
+
           <Grid item xs={12} md={16} lg={16} >
           <Card style={{backgroundColor: '#001540'}}>
           <CardContent>
@@ -118,12 +119,11 @@ theme.typography.h4 = {
                       </div>
                </CardContent>
                    
-
       <CardActions style={{ display: "flex", justifyContent: "center", padding: "1.3rem", alignItems: "center"}}>
         <Button 
                color="secondary"
                variant="outlined"
-               href="https://github.com/Wrangler416/e-shop"
+               href=""
                  >resume</Button>
                  <Button 
                  color="secondary"
@@ -141,16 +141,14 @@ theme.typography.h4 = {
           </Grid>
       </Grid>
           
-   
+  
     
-         <Grid 
-         container
-         direction="row"
-         justifyContent="center"
-         alignItems="center"
-         >
+         <Grid    container columns={{ xs: 4, md: 12 }}
+                  direction="row"
+                  justifyContent="center"
+                  alignItems="center">
           <Grid 
-          item xs={6} md={8} lg={6}
+            item xs={6} md={8} lg={8}
           >
             <Link href={"https://e-shop-rho.vercel.app/"}>
               <Card style={{backgroundColor: '#001540', margin: "1rem"}}>
@@ -190,7 +188,7 @@ theme.typography.h4 = {
               </Grid>
 
               <Grid 
-          item xs={6} md={8}>
+               item xs={6} md={8} lg={8}>
             <Link href={"https://disney-plus-eta.vercel.app/"}>
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
@@ -232,7 +230,7 @@ theme.typography.h4 = {
 
 
               <Grid 
-          item xs={6} md={8}>
+          item xs={6} md={8} lg={8}>
             <Link href={"https://space-x-dusky.vercel.app/"}>
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
@@ -277,7 +275,7 @@ theme.typography.h4 = {
 
 
               <Grid 
-          item xs={6} md={8}>
+          item xs={6} md={8} lg={8}>
             <Link href={"http://www.kitesurfcat.com/"}>
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>

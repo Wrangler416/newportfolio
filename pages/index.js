@@ -112,7 +112,7 @@ theme.typography.h4 = {
                         <Typography
                          style={{ fontFamily: 'Quicksand', margin: ".6rem"}}
                          variant="h3">
-                        I'm Kara.         
+                        I'm KARA.         
                         </Typography>
                         </div>
                       
@@ -124,7 +124,7 @@ theme.typography.h4 = {
           color="secondary"
           style={{ fontFamily: 'Urbanist', textAlign: "center", margin: ".5rem"}}
           variant="h4"> 
-        I create apps to inspire and captivate 
+        I design and develop solutions that inspire and captivate 
       </Typography>
       <CardActions style={{ display: "flex", justifyContent: "center", padding: "1.3rem", alignItems: "center"}}>
         <Button 

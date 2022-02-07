@@ -112,7 +112,7 @@ theme.typography.h4 = {
                         <Typography
                          style={{ fontFamily: 'Quicksand', margin: ".6rem"}}
                          variant="h3">
-                        I'm KARA.         
+                        I'm Kara.         
                         </Typography>
                         </div>
                       

@@ -17,7 +17,6 @@ import {
   Button,} 
   from '@mui/material'
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
-import animationData from "../public/images/tool.json"
 
 
 const Home = () => {
@@ -40,22 +39,22 @@ let theme = createTheme({
 theme = responsiveFontSizes(theme)
 
 theme.typography.h2 = {
-  fontSize: '2.0em',
+  fontSize: '2.5em',
   '@media (min-width:600px)': {
     fontSize: '3.0rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '4.5rem',
+    fontSize: '5.0rem',
   },
 }
 
 theme.typography.h3 = {
-  fontSize: '1.9rem',
+  fontSize: '2.4rem',
   '@media (min-width:600px)': {
     fontSize: '2.8rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '4.0rem',
+    fontSize: '4.8rem',
   },
 }
 
@@ -95,7 +94,7 @@ theme.typography.h4 = {
           <CardContent>
                 <div style={{position: 'relative'}} >
               
-                  <Image src={race} width={1400} height={800}></Image>
+                  <Image src={race} width={1900} height={1000}></Image>
                       <div style={{
                         position: 'absolute', 
                         color: '#001540', 
@@ -120,14 +119,13 @@ theme.typography.h4 = {
             
                       </div>
                </CardContent>
-               <br></br>
+
       <Typography
           color="secondary"
           style={{ fontFamily: 'Urbanist', textAlign: "center", margin: ".5rem"}}
           variant="h4"> 
-        I create applications that inspire, inform and captivate 
+        I create apps to inspire and captivate 
       </Typography>
- <br></br>
       <CardActions style={{ display: "flex", justifyContent: "center", padding: "1.3rem", alignItems: "center"}}>
         <Button 
                size="large"
@@ -148,7 +146,6 @@ theme.typography.h4 = {
               style={{textAlign: "center", margin: "2rem", fontFamily: 'Quicksand'}}>
             Projects 
           </Typography>    
-          <br></br>
             </Card>        
           </Grid>
       </Grid>

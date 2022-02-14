@@ -131,7 +131,7 @@ theme.typography.h4 = {
                size="large"
                color="secondary"
                variant="outlined"
-               href="https://www.canva.com/design/DAE3VE_Ff84/OJNxmXRlMbmPDgQoy7cdHQ/view?utm_content=DAE3VE_Ff84&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+               href="https://www.canva.com/design/DAE3u2HTVNM/tR5RmakZ3Ctpw5cmMOZ5hQ/view?utm_content=DAE3u2HTVNM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                  >resume</Button>
                  <Button 
                  size="large"

@@ -94,7 +94,7 @@ theme.typography.h4 = {
           <CardContent>
                 <div style={{position: 'relative'}} >
               
-                  <Image src={race} width={1900} height={1000}></Image>
+                  <Image alt="sailsandsky" src={race} width={1900} height={1000}></Image>
                       <div style={{
                         position: 'absolute', 
                         color: '#001540', 
@@ -163,7 +163,7 @@ theme.typography.h4 = {
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
                     <CardContent style={{textAlign: "center"}}>
-                      <Image src={ecom} width={400} height={300}></Image>
+                      <Image alt="ecommerce-site" src={ecom} width={400} height={300}></Image>
                       <Typography 
                       color="secondary"
                       style={{textAlign: "center",fontFamily: 'Urbanist'}}
@@ -204,7 +204,7 @@ theme.typography.h4 = {
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
                     <CardContent style={{textAlign: "center"}}>
-                      <Image src={moa} width={400} height={300}></Image>
+                      <Image alt="disneyplus-clonesite" src={moa} width={400} height={300}></Image>
                       <Typography 
                         margin="1rem"
                       color="secondary"
@@ -248,7 +248,7 @@ theme.typography.h4 = {
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
                     <CardContent style={{textAlign: "center"}}>
-                      <Image src={space} width={400} height={300}></Image>
+                      <Image alt="spacex-launchsite" src={space} width={400} height={300}></Image>
                       <Typography 
                       color="secondary"
                       margin="1rem"
@@ -346,7 +346,7 @@ theme.typography.h4 = {
                     color="secondary"
                     variant="outlined"
                     href="mailto: karaanntemple@gmail.com"
-                    >Contact Me</Button>
+                    >Email Me</Button>
                   
                   </CardActions>
 

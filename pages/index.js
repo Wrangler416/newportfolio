@@ -295,7 +295,7 @@ theme.typography.h4 = {
               <Card style={{backgroundColor: '#001540', margin: ".2rem"}}>
                   <CardActionArea>
                     <CardContent style={{textAlign: "center"}}>
-                      <Image src={kite} width={400} height={300}></Image>
+                      <Image alt="kitesurf-site" src={kite} width={400} height={300}></Image>
                       <Typography 
                       color="secondary"
                       margin="1rem"
